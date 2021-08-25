@@ -1,14 +1,12 @@
 ---
-label: Page
+label: Landing Page
 hide_body: true
 fields:
 - name: sections
   type: blocks
   label: Sections
   template_types:
-  - post
-  - config
-  - landing-page
+  - hero
   config:
     min: 
     max: 
