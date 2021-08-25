@@ -1,4 +1,14 @@
 ---
 label: Landing Page
 hide_body: true
-fields: []
+fields:
+- name: sections
+  type: blocks
+  label: Sections
+  template_types:
+  - post
+  - config
+  - landing-page
+  config:
+    min: 
+    max: 
